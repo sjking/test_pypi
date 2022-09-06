@@ -1,0 +1,3 @@
+# PyFoobarCLI
+
+Hello, world!
