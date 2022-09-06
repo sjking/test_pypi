@@ -28,5 +28,8 @@ test:
 test-all:
 	tox
 
+release: dist
+	twine upload --repository testpypi dist/*
+
 install:
 	@pip list | grep pyfoobarcli > /dev/null || pip install -e .
